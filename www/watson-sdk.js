@@ -31,6 +31,9 @@ module.exports = {
     },
     // Speech-To-Text, WatsonSDK.SpeechToText
     SpeechToText: {
+        init : function(jsonVcapCredentialsAndOptions,onSuccess, onFailure) {
+            exec(onSuccess, onFailure, 'Stt', 'init', [jsonVcapCredentialsAndOptions]);
+        },
         recognize : function(onSuccess, onFailure) {
             exec(onSuccess, onFailure, 'Stt', 'recognize', []);
         },

@@ -1,6 +1,6 @@
 {
   "name": "WatsonSpeechPlugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "cordova": {
     "id": "WatsonSpeechPlugin",
     "platforms": [
@@ -8,13 +8,13 @@
       "ios"
     ]
   },
-  "description": "Watson Speech Cordova Plugin",
-  "repository": "https://github.com/CognitiveBuild/WatsonSpeechPlugin.git",
-  "issue": "https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues",
+  "description": "Watson Speech Cordova Plugin with Pameters",
+  "repository": "https://github.com/foward/WatsonSpeechPlugin.git",
+  "issue": "https://github.com/foward/WatsonSpeechPlugin/issues",
   "keywords": [
     "watson",
     "cordova"
   ],
-  "author": "mihui",
+  "author": "mihui & modified by Francisco Riveros",
   "license": "Apache 2.0"
 }

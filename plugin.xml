@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="WatsonSpeechPlugin"
-    version="1.0.0">
+    version="1.1.0">
     <name>WatsonSpeechPlugin</name>
-    <description>Watson Speech Cordova Plugin</description>
+    <description>Watson Speech Cordova Plugin with Parameters</description>
     <license>Apache 2.0</license>
     <keywords>Watson, Speech, STT, TTS</keywords>
-    <repo>https://github.com/CognitiveBuild/WatsonSpeechPlugin.git</repo>
-    <issue>https://github.com/CognitiveBuild/WatsonSpeechPlugin/issues</issue>
+    <repo>https://github.com/foward/WatsonSpeechPlugin.git</repo>
+    <issue>https://github.com/foward/WatsonSpeechPlugin/issues</issue>
 
     <js-module src="www/watson-sdk.js" name="WatsonSDK">
         <clobbers target="window.WatsonSDK" />
