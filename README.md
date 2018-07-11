@@ -11,10 +11,12 @@ To install the Watson Speech Plugin in your Cordova Project, run in terminal:
 cordova plugin add https://github.com/foward/WatsonSpeechPlugin.git
 ```
 
+* Example App to test the plugin you will find in this repository under the folder ExampleCordovaApp
+
 # Credentials
 
 * Provide a VCAP_OBJECT_OPTIONS (JSONArray) in the following structure (First you get the VCAP from bluemix and then you add to the list an object called "options" with the same structure as below)
-
+```javascript
         var VCAP_OBJECT_OPTIONS =[
 
             {
@@ -57,7 +59,7 @@ cordova plugin add https://github.com/foward/WatsonSpeechPlugin.git
         }
 
         ];
-
+```
 
 # Basic JavaScript APIs
 

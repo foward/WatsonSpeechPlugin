@@ -1,0 +1,44 @@
+[
+    
+    {
+    "speech_to_text": [{
+        "credentials": {
+            "url": "https:\/\/stream.watsonplatform.net\/speech-to-text\/api",
+            "username": "<USERNAME_FROM_VCAP>",
+            "password": "<PASSWORD_FROM_VCAP>"
+        },
+        "syslog_drain_url": null,
+        "volume_mounts": [],
+        "label": "speech_to_text",
+        "provider": null,
+        "plan": "lite",
+        "name": "<SERVICE_NAME_FROM_VCAP>",
+        "tags": ["ibm_created", "ibm_dedicated_public", "lite", "watson"]
+    }]
+},{
+    "options": {
+        "inactivityTimeout" : 30,
+        "continuous":false,
+        "interimResults": true,
+        "languageModel": "en-US_BroadbandModel",
+        "audioFormat" : "audio/ogg;codecs=opus",
+        "audioSampleRate": 16000,
+        "isAuthNeeded": true,
+        "isSSL": true,
+        "connectionTimeout": 30000,
+        "keywordsThreshold": "-1.0D",
+        "wordAlternativesThreshold" : "-1.0D",
+        "smartFormatting" : false,
+        "timestamps" : false,
+        "profanityFilter" : true,
+        "wordConfidence" : false,
+        "apiEndpoint" : "https://stream.watsonplatform.net/speech-to-text/api",
+        "apiURL" : "",
+        "xWatsonLearningOptOut" : false
+
+    }
+}
+
+]
+
+

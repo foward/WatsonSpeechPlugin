@@ -1,0 +1,51 @@
+{
+  "_from": "git+https://github.com/foward/WatsonSpeechPlugin.git",
+  "_id": "WatsonSpeechPlugin@1.1.0",
+  "_inBundle": false,
+  "_location": "/WatsonSpeechPlugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/foward/WatsonSpeechPlugin.git",
+    "rawSpec": "https://github.com/foward/WatsonSpeechPlugin.git",
+    "saveSpec": "git+https://github.com/foward/WatsonSpeechPlugin.git",
+    "fetchSpec": "https://github.com/foward/WatsonSpeechPlugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/foward/WatsonSpeechPlugin.git#10e2060f73c1292e070fd2c2356b2661f6e45c33",
+  "_spec": "https://github.com/foward/WatsonSpeechPlugin.git",
+  "_where": "/Users/friveros/Documents/PROJECTS/EXPERT ASSIST/CATERPILAR PROJECT/SpeechToTextResearch/WatsonSpeechPluginSampleORIGINAL",
+  "author": {
+    "name": "mihui & modified by Francisco Riveros"
+  },
+  "bugs": {
+    "url": "https://github.com/foward/WatsonSpeechPlugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "WatsonSpeechPlugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Watson Speech Cordova Plugin with Pameters",
+  "homepage": "https://github.com/foward/WatsonSpeechPlugin#readme",
+  "issue": "https://github.com/foward/WatsonSpeechPlugin/issues",
+  "keywords": [
+    "watson",
+    "cordova"
+  ],
+  "license": "Apache 2.0",
+  "name": "WatsonSpeechPlugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foward/WatsonSpeechPlugin.git"
+  },
+  "version": "1.1.0"
+}
